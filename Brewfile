@@ -25,6 +25,7 @@ brew 'grep'
 brew 'jq'
 brew 'tree'
 brew 'bash-completion'
+brew 'yarn'
 
 # Casks
 cask 'google-chrome'

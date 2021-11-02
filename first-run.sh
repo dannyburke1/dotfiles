@@ -2,6 +2,8 @@
 
 set -e
 
+sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
+
 echo "Checking Homebrew is installed..."
 if test ! $(which brew); then
     echo "Installing homebrew..."
